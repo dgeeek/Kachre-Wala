@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "251171787805",
+    "firebase_url": "https://kachrewala-fb3e7.firebaseio.com",
+    "project_id": "kachrewala-fb3e7",
+    "storage_bucket": "kachrewala-fb3e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251171787805:android:aa0d3a4ff95bf454",
+        "android_client_info": {
+          "package_name": "com.example.kachrewala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251171787805-d0lm8pii43saiqno5gfjl7nq7abanima.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kachrewala",
+            "certificate_hash": "d09d83adbe792338721e4fbbe14ddc852f856ee2"
+          }
+        },
+        {
+          "client_id": "251171787805-sji1bcc37ps2ovdfg8c5smtvpds2otbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLusWBbWl4iR2SVVV0fyPmiRUdVfCWwhw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251171787805-sji1bcc37ps2ovdfg8c5smtvpds2otbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
