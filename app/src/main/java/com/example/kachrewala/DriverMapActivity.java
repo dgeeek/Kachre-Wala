@@ -128,7 +128,7 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
         }
         LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
         //mFusedLocationClient.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
-        //mFusedLocationClient.requestLocationUpdates(mGoogleApi
+        //mFusedLocationClient.requestLocationUpdates(mGoogleApiClient
 
     }
 
