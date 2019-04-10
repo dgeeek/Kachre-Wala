@@ -80,10 +80,14 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        mLocationRequest = new LocationRequest();
+        LatLng loc = new LatLng(28.796471,77.537885);
+        mMap.addMarker(new MarkerOptions().position(loc).title("Your Location"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(loc));
+
+        /*mLocationRequest = new LocationRequest();
         mLocationRequest.setInterval(1000);
         mLocationRequest.setFastestInterval(1000);
-        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);*/
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
             if(ContextCompat.checkSelfPermission(this,Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED){
@@ -115,7 +119,7 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
         }
     }
 
-
+/*
     @Override
     public void onLocationChanged(Location location) {
         mLastLocation = location;
@@ -124,6 +128,6 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(11));
-    }
+    }*/
 
 }
